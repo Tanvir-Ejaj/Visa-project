@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/theme-basic.css">
+    <link rel="stylesheet" href="css/theme-glass.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Nav area start -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <picture>
+                    <img src="images/logo.png" alt="logo">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+                <div class="nav-search d-flex align-items-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search Here">
+                </div>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recommendation</a>
+                    </li>
+                </ul>
+                <div class="language-selector">
+                    <div class="nice-select">
+                        <span class="current">Date: Newest First</span>
+                        <ul class="list">
+                            <li data-value="1" class="option">Some option</li>
+                            <li data-value="2" class="option">Another option</li>
+                            <li data-value="4" class="option">Potato</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nav area end -->
+
+    <!-- Banner area start -->
+
+    <div class="banner-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="banner-list">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                aria-selected="true">Login/SignUp
+                            </button>
+                            <button class="nav-link" id="v-pills-menu-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-menu" type="button" role="tab" aria-controls="v-pills-menu"
+                                aria-selected="false">Menu
+                            </button>
+                            <button class="nav-link" id="v-pills-home2-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home2" type="button" role="tab" aria-controls="v-pills-home2"
+                                aria-selected="false">Home
+                            </button>
+                            <button class="nav-link" id="v-pills-service-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-service" type="button" role="tab"
+                                aria-controls="v-pills-service" aria-selected="false">Service
+                            </button>
+                            <button class="nav-link" id="v-pills-payment-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-payment" type="button" role="tab"
+                                aria-controls="v-pills-payment" aria-selected="false">Payment
+                            </button>
+                            <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-contact" type="button" role="tab"
+                                aria-controls="v-pills-contact" aria-selected="false">Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="banner-infos">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-menu" role="tabpanel"
+                                aria-labelledby="v-pills-menu-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-home2" role="tabpanel"
+                                aria-labelledby="v-pills-home2-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-service" role="tabpanel"
+                                aria-labelledby="v-pills-service-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-payment" role="tabpanel"
+                                aria-labelledby="v-pills-payment-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
+                                aria-labelledby="v-pills-contact-tab" tabindex="0">
+                                <img src="images/banner.png" alt="banner">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-main">
+                <h2>Please Select Your Need</h2>
+                <div class="row mt-4 need-slider">
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need1.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Travel</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need2.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Education</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need3.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Working</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need4.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Hotel</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need5.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Hajj</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need6.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Holiday Pack</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need3.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Working</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need4.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Hotel</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need5.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Hajj</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="need-inner">
+                            <div class="need-icon">
+                                <img src="images/need6.png" alt="need-icon">
+                            </div>
+                            <div class="need-text">
+                                <h3>Holiday Pack</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner area end -->
+
+    <!-- Ticktes area start -->
+
+    <div class="ticktes-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Ticket</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row align-items-center justify-content-end">
+                            <div class="col-lg-6">
+                                <div class="header-video">
+                                    <img src="images/header-pic01.png" alt="header-pic">
+                                    <div class="play-btn">
+                                        <a class="my-video-links" data-autoplay="true" data-vbtype="video"
+                                            data-maxwidth="700px"
+                                            href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                            <i class="fa-solid fa-play">
+                                            </i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="header-right-text">
+                                    <h3>Get More Service</h3>
+                                    <div class="nice-select">
+                                        <span class="current">Train</span>
+                                        <ul class="list">
+                                            <li data-value="1" class="option">Bus</li>
+                                            <li data-value="2" class="option">Flight</li>
+                                            <li data-value="4" class="option">Ship</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ticktes area end -->
+
+    <!-- Ticektes selection area start -->
+
+    <div class="ticktes-selection-main">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 text-center">
+                    <div class="selection-main">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">One Way
+                                </button>
+                                <button class="nav-link" id="nav-round-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-round" type="button" role="tab" aria-controls="nav-round"
+                                    aria-selected="false">Round Way
+                                </button>
+                                <button class="nav-link" id="nav-multi-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-multi" type="button" role="tab" aria-controls="nav-multi"
+                                    aria-selected="false">Multi City
+                                </button>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+            <div class="option-main">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="option-panel">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="fly">
+                                                <h3>Flying From</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Dhaka</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Flying To</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Cox's Bazar</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 text-center">
+                                            <div class="fly">
+                                                <h3>Select Date</h3>
+                                                <div class="dates d-flex justify-content-between align-items-center">
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Departure Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Return Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                </div>
+                                                <!-- <div id="color-calendar"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Passenger & Cabin Class</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">1 Person</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">1 Person</li>
+                                                        <li data-value="2" class="option">1 Person</li>
+                                                        <li data-value="4" class="option">1 Person</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-round" role="tabpanel" aria-labelledby="nav-round-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="option-panel">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="fly">
+                                                <h3>Flying From</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Dhaka</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Flying To</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Cox's Bazar</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 text-center">
+                                            <div class="fly">
+                                                <h3>Select Date</h3>
+                                                <div class="dates d-flex justify-content-between align-items-center">
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Departure Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Return Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                </div>
+                                                <!-- <div id="color-calendar"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Passenger & Cabin Class</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">1 Person</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">1 Person</li>
+                                                        <li data-value="2" class="option">1 Person</li>
+                                                        <li data-value="4" class="option">1 Person</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-multi" role="tabpanel" aria-labelledby="nav-multi-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="option-panel">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="fly">
+                                                <h3>Flying From</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Dhaka</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Flying To</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">Cox's Bazar</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">Shylet</li>
+                                                        <li data-value="2" class="option">Chittagong</li>
+                                                        <li data-value="4" class="option">Saidpur</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 text-center">
+                                            <div class="fly">
+                                                <h3>Select Date</h3>
+                                                <div class="dates d-flex justify-content-between align-items-center">
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Departure Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                    <div
+                                                        class="date-inner d-flex justify-content-between align-items-center">
+                                                        <h6>Return Date</h6>
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                </div>
+                                                <!-- <div id="color-calendar"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="fly">
+                                                <h3>Passenger & Cabin Class</h3>
+                                                <div class="nice-select">
+                                                    <span class="current">1 Person</span>
+                                                    <ul class="list">
+                                                        <li data-value="1" class="option">1 Person</li>
+                                                        <li data-value="2" class="option">1 Person</li>
+                                                        <li data-value="4" class="option">1 Person</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 text-center">
+                    <div class="ticktes-btn">
+                        <button>Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ticektes selection area end -->
+
+    <!-- Get Offer area start -->
+
+    <div class="get-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="offer-heding">
+                        <h3>Get Offer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 offer-slider">
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of01.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of02.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of03.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of01.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of02.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of03.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Biman Bangladesh Airlines</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>5000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>2 Hour 35 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Offer area end -->
+
+    <!-- Tourist area start -->
+
+    <div class="tourist-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-4">
+                        <div class="header-left-text">
+                            <h3>Get Tourist and Business Visa Easily</h3>
+                            <div class="nice-select">
+                                <span class="current">Select Country</span>
+                                <ul class="list">
+                                    <li data-value="1" class="option">Bangladesh</li>
+                                    <li data-value="2" class="option">India</li>
+                                    <li data-value="4" class="option">Sudia Arab</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3">
+                    <div class="offer-heading">
+                        <h3>Get Offer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 align-items-center">
+                <div class="col-lg-4">
+                    <div class="offer-inner">
+                        <div class="offer-image">
+                            <img src="images/of04.png" alt="offer-image">
+                        </div>
+                        <div class="offer-text">
+                            <h4>Bangkok: where tradition meets The future</h4>
+                            <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                <div class="offer-price">
+                                    <p>50000 BDT/Person</p>
+                                </div>
+                                <div class="offer-duration">
+                                    <p>15 Days 14 Night </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-1">
+                    <div class="tourist-right text-center">
+                        <div class="fly">
+                            <h3>Select Date</h3>
+                            <div class="dates d-flex justify-content-between align-items-center">
+                                <div class="date-inner d-flex justify-content-between align-items-center">
+                                    <h6>Departure Date</h6>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="date-inner d-flex justify-content-between align-items-center">
+                                    <h6>Return Date</h6>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <!-- <div id="color-calendar"></div> -->
+                        </div>
+                        <div class="happen-main d-flex justify-content-between align-items-center">
+                            <div class="happen-inner d-flex align-items-center">
+                                <p>How it will happen</p>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="happen-inner">
+                                <p>To</p>
+                            </div>
+                            <div class="happen-inner d-flex align-items-center">
+                                <p>How it will happen</p>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tourist area end -->
+
+    <!-- Hotel area start -->
+
+    <div class="hotel-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-8">
+                        <div class="header-left-text">
+                            <h3>Hotel Booking</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally
+                            </p>
+                        </div>
+                        <div class="header-checkbox">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">
+                                    I am Looking For an entire home or apartment
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">
+                                    I am Traveling For Work
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-select">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="fly">
+                            <h3>Where You Going?</h3>
+                            <div class="nice-select">
+                                <span class="current">Arab Amirates</span>
+                                <ul class="list">
+                                    <li data-value="1" class="option">Shylet</li>
+                                    <li data-value="2" class="option">Chittagong</li>
+                                    <li data-value="4" class="option">Saidpur</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="fly">
+                            <h3>Select Date</h3>
+                            <div class="dates d-flex justify-content-between align-items-center">
+                                <div class="date-inner d-flex justify-content-between align-items-center">
+                                    <h6>Check In Date</h6>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="date-inner d-flex justify-content-between align-items-center">
+                                    <h6>Check Out Date</h6>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="fly">
+                            <h3>People</h3>
+                            <div class="d-flex">
+                                <div class="nice-select">
+                                    <span class="current">1 Person</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Shylet</li>
+                                        <li data-value="2" class="option">Chittagong</li>
+                                        <li data-value="4" class="option">Saidpur</li>
+                                    </ul>
+                                </div>
+                                <div class="nice-select">
+                                    <span class="current">1 Child</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Shylet</li>
+                                        <li data-value="2" class="option">Chittagong</li>
+                                        <li data-value="4" class="option">Saidpur</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="fly">
+                            <h3>Room</h3>
+                            <div class="nice-select">
+                                <span class="current">1 Room</span>
+                                <ul class="list">
+                                    <li data-value="1" class="option">Shylet</li>
+                                    <li data-value="2" class="option">Chittagong</li>
+                                    <li data-value="4" class="option">Saidpur</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <div class="hotel-btn">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="get-offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="offer-heding">
+                            <h3>Get Offer</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 offer-slider">
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of05.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of06.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of07.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of05.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of06.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="offer-inner">
+                            <div class="offer-image">
+                                <img src="images/of07.png" alt="offer-image">
+                            </div>
+                            <div class="offer-text">
+                                <h4>Sea Pearl Beach Resort & Spa Cox's Bazar</h4>
+                                <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                    <div class="offer-price">
+                                        <p>50000 BDT/Person</p>
+                                    </div>
+                                    <div class="offer-duration">
+                                        <p>Price includes VAT & Tax</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hotel area end -->
+
+    <!-- Work area start -->
+
+    <div class="work-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Work Visa</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally</p>
+                            <div class="d-flex">
+                                <div class="nice-select">
+                                    <span class="current">Select Country</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                                <div class="nice-select">
+                                    <span class="current">Work Related Service</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-select">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="nice-select">
+                            <span class="current">A Category</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="nice-select">
+                            <span class="current">B Category</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="nice-select">
+                            <span class="current">C Category</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="nice-select">
+                            <span class="current">D Category</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="get-offer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="offer-heding">
+                                <h3>Get Offer</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 offer-slider">
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of08.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Hotel</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of09.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Garden</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of10.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Company</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of08.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Hotel</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of09.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Garden</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of10.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Work In Company</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>50000 BDT/Start From</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>Process In 30 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work area end -->
+
+    <!-- Hajj area start -->
+
+    <div class="hajj-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Hajj Visa</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally</p>
+                            <div class="nice-select">
+                                <span class="current">Our Medical Related Service</span>
+                                <ul class="list">
+                                    <li data-value="1" class="option">Bangladesh</li>
+                                    <li data-value="2" class="option">India</li>
+                                    <li data-value="4" class="option">Sudia Arab</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hajj-selector">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h3>Category</h3>
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-umrah-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-umrah" type="button" role="tab" aria-controls="pills-umrah"
+                                    aria-selected="true">Umrah
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-hajj-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-hajj" type="button" role="tab" aria-controls="pills-hajj"
+                                    aria-selected="false">Hajj
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-umrah" role="tabpanel"
+                                aria-labelledby="pills-umrah-tab" tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 offer-slider">
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of11.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Hotel</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of12.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Garden</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of13.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Company</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of11.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Hotel</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of12.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Garden</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of13.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Work In Company</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Start From</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-hajj" role="tabpanel" aria-labelledby="pills-hajj-tab"
+                                tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 text-center">
+                                            <h3>Not Found. Please Wait</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hajj area end -->
+
+    <!-- Education area start -->
+
+    <div class="edu-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Education</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally</p>
+                            <div class="d-flex">
+                                <div class="nice-select">
+                                    <span class="current">Select Country</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                                <div class="nice-select">
+                                    <span class="current">Our Education Related Service</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-select">
+                <h3>Programs</h3>
+                <div class="row mt-3">
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">School</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">College</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">University</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">Medical</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">Engineer</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">Research</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="nice-select">
+                            <span class="current">Foundation Course</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="get-offer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="offer-heding">
+                                <h3>Get Offer</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 offer-slider">
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of14.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of15.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of16.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of14.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of15.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="offer-inner">
+                                <div class="offer-image">
+                                    <img src="images/of16.png" alt="offer-image">
+                                </div>
+                                <div class="offer-text">
+                                    <h4>Lovely Professional University</h4>
+                                    <div class="offer-text-down d-flex justify-content-between align-items-center">
+                                        <div class="offer-price">
+                                            <p>Total :2,50000 BDT</p>
+                                        </div>
+                                        <div class="offer-duration">
+                                            <p>4 Years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education area end -->
+
+    <!-- Medical area start -->
+
+    <div class="medi-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Medical</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally</p>
+                            <div class="d-flex">
+                                <div class="nice-select">
+                                    <span class="current">Select Country</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                                <div class="nice-select">
+                                    <span class="current">Our Medical Related Service</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hajj-selector">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Programs</h3>
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-public-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-public" type="button" role="tab" aria-controls="pills-public"
+                                    aria-selected="true">Public
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-private-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-private" type="button" role="tab"
+                                    aria-controls="pills-private" aria-selected="false">Private Hospital
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-dig-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-dig" type="button" role="tab" aria-controls="pills-dig"
+                                    aria-selected="false">Diagnostic Centre
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tab-content" id="pills-tabContent2">
+                            <div class="tab-pane fade show active" id="pills-public" role="tabpanel"
+                                aria-labelledby="pills-umrah-tab" tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 offer-slider">
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of17.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>The Parul Kanide Hospital</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>Kidney Treatment</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>Hotel Support</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of18.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>The Parul Kanide Hospital</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>Eye Treatment</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>Hotel And Serial Support</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of19.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>The Parul Kanide Hospital</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>Dental Treatment</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>Hotel And Serial Support</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of18.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>The Parul Kanide Hospital</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>Eye Treatment</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>Hotel And Serial Support</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-private" role="tabpanel"
+                                aria-labelledby="pills-hajj-tab" tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 text-center">
+                                            <h3>Not Found. Please Wait</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-dig" role="tabpanel" aria-labelledby="pills-hajj-tab"
+                                tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 text-center">
+                                            <h3>Comming Soon</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medical area end -->
+
+    <!-- Holiday area start -->
+
+    <div class="holi-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Holiday Package</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally</p>
+                            <div class="d-flex">
+                                <div class="nice-select">
+                                    <span class="current">Select Country</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                                <div class="nice-select">
+                                    <span class="current">Our Package Related Service</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Bangladesh</li>
+                                        <li data-value="2" class="option">India</li>
+                                        <li data-value="4" class="option">Sudia Arab</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-video">
+                            <img src="images/header-pic01.png" alt="header-pic">
+                            <div class="play-btn">
+                                <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                    href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                    <i class="fa-solid fa-play">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="extra-btn">
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hajj-selector">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Programs</h3>
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-economy-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-economy" type="button" role="tab"
+                                    aria-controls="pills-economy" aria-selected="true">Economy Class
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-busniess-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-busniess" type="button" role="tab"
+                                    aria-controls="pills-busniess" aria-selected="false">Business
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-first-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-first" type="button" role="tab" aria-controls="pills-first"
+                                    aria-selected="false">First Class Passenger
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tab-content" id="pills-tabContent3">
+                            <div class="tab-pane fade show active" id="pills-economy" role="tabpanel"
+                                aria-labelledby="pills-umrah-tab" tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 offer-slider">
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of20.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Bangkok: where tradition meets The future</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Person</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of21.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Bangkok: where tradition meets The future</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Person</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of22.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Bangkok: where tradition meets The future</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Person</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="offer-inner">
+                                                    <div class="offer-image">
+                                                        <img src="images/of21.png" alt="offer-image">
+                                                    </div>
+                                                    <div class="offer-text">
+                                                        <h4>Bangkok: where tradition meets The future</h4>
+                                                        <div
+                                                            class="offer-text-down d-flex justify-content-between align-items-center">
+                                                            <div class="offer-price">
+                                                                <p>50000 BDT/Person</p>
+                                                            </div>
+                                                            <div class="offer-duration">
+                                                                <p>15 Days 14 Night </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-busniess" role="tabpanel"
+                                aria-labelledby="pills-hajj-tab" tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 text-center">
+                                            <h3>Not Found. Please Wait</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-first" role="tabpanel" aria-labelledby="pills-hajj-tab"
+                                tabindex="0">
+                                <div class="get-offer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="offer-heding">
+                                                    <h3>Get Offer</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 text-center">
+                                            <h3>Please Wait</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Holiday area end -->
+
+    <!-- Visa Check area start -->
+
+    <div class="visa-check-main">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="visa-check-left">
+                        <h6>Visa Check</h6>
+                        <h3>Check Your Visa Today With Passport Number</h3>
+                        <p>It all boils down to the fact that we understand the “flatness” of our phone screens. Faux 3d
+                            elements and real-world textures mentally down to the fact that we understand the “flatness”
+                            of our phone screens. Faux 3d elements down to the fact that we understand the “flatness” of
+                            our phone screens. Faux 3d elements</p>
+                        <div class="nice-select">
+                            <span class="current">Select Country</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="extra-btn">
+                        <button>Know More Service</button>
+                    </div>
+                    <div class="header-video">
+                        <img src="images/visa.png" alt="header-pic">
+                        <div class="play-btn">
+                            <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-maxwidth="700px"
+                                href="https://youtu.be/Dex0hq46MwI?si=ueClauoB1t4fyhzN">
+                                <i class="fa-solid fa-play">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visa Check area end -->
+
+    <!-- CV area start -->
+
+    <div class="cv-main">
+        <div class="container">
+            <div class="heading">
+                <div class="col-lg-4">
+                    <div class="header-left-text">
+                        <h3>CV</h3>
+                        <div class="nice-select">
+                            <span class="current">Select Country</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-select">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="nice-select">
+                            <span class="current">School CV</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nice-select">
+                            <span class="current">Collage CV</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nice-select">
+                            <span class="current">Job CV</span>
+                            <ul class="list">
+                                <li data-value="1" class="option">Bangladesh</li>
+                                <li data-value="2" class="option">India</li>
+                                <li data-value="4" class="option">Sudia Arab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="cv-left">
+                        <img src="images/cv.png" alt="cv">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="cv-right">
+                        <h3>Grab Your Opportunity With Perfect CV</h3>
+                        <p>When the first iPhone launched, the idea of interacting with a small device using multi-touch
+                            gestures was quite new. To make people more comfortable with the interface, the initial
+                            designs used Skeuomorphism for the UI.
+                        </p>
+                        <p>When the first iPhone launched, the idea of interacting with a small device using
+                            multi-touch gestures was quite new. To make people more comfortable with the interface, the
+                            initial designs used Skeuomorphism for the UI
+                        </p>
+                        <div class="buttons">
+                            <button>Apply For CV</button>
+                            <button>Know More Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CV area end -->
+
+    <!-- Balance area start -->
+
+    <div class="balance-main">
+        <div class="container">
+            <div class="heading">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-left-text">
+                            <h3>Abroad to Abroad Balance Transfer For Emergency</h3>
+                            <p>It all boils down to the fact that we understand the “flatness” of our phone screens.
+                                Faux 3d elements and real-world textures mentally down to the fact that we understand
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <button>My Balance Transfer</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="balance-right buttons">
+                            <button>Login/Sign Up</button>
+                            <button><i class="fa-regular fa-circle-play"></i> Know Information</button>
+                            <button>Help</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Balance area end -->
+
+    <!-- Banner 2 area start -->
+
+    <div class="banner2-main">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="banner2-left">
+                        <h3>Let’s Contact Us For Any Inquiry</h3>
+                        <p>It all boils down to the fact that we understand the “flatness” of our phone screens. Faux 3d
+                            elements and real-world textures mentally clash with that flatness creating some dissonance.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-end">
+                    <div class="buttons">
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner 2 area end -->
+
+    <!-- Footer area start -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="extra-links">
+                        <ul>
+                            <li><a href="#">Why Choose Us</a></li>
+                            <li><a href="#"> About Us </a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Recommendation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-infos">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <div class="icons">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <div class="icons">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <p>+8801000000000, +8801000000000</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <div class="icons">
+                                <i class="fa-regular fa-envelope-open"></i>
+                            </div>
+                            <p>yourmail123@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-lg-4 text-end">
+                    <div class="copyright d-flex justify-content-end align-items-center">
+                        <i class="fa-regular fa-copyright"></i>
+                        <p>Copyright 2023 . Shopno Zatra. All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer area end -->
+
+    <div class="extra-btn-top">
+        <div class="container btn-container">
+            <a href="#"><i class="fa-solid fa-hand-point-up"></i></a>
+        </div>
+    </div>
+
+
+    <!-- Javascript area start -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Javascript area end -->
+</body>
+
+</html>
