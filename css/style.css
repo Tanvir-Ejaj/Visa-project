@@ -38,14 +38,7 @@ p {
 }
 
 body {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #fff 0%,
-    rgba(255, 255, 255, 1) 11.67%,
-    rgba(255, 255, 255, 1) 27.08%,
-    #fff 59.7%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  overflow-x: hidden;
 }
 
 /* Common css area end */

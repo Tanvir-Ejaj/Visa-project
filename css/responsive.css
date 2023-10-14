@@ -1,0 +1,194 @@
+@media (max-width: 575.99px) {
+  .banner-list .nav {
+    margin-right: 0 !important;
+    flex-direction: row !important;
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+
+  .banner-list .nav-link {
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 1px;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+  }
+
+  .banner-main {
+    padding: 100px 0 50px 0;
+  }
+
+  .need-main {
+    padding-top: 40px;
+  }
+
+  .need-slider .right-arrow {
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+  }
+
+  .need-slider .left-arrow {
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+  }
+
+  .ticktes-main {
+    padding-top: 50px;
+  }
+
+  .ticktes-main .nice-select {
+    border: 1px solid #eae9d3;
+    padding: 0 20px;
+    width: 50%;
+  }
+
+  .selection-main .nav-tabs .nav-link {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .option-main {
+    padding: 30px 15px;
+    margin-top: 0;
+  }
+
+  .fly {
+    margin-bottom: 15px;
+  }
+
+  .fly .nice-select {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .date-inner h6 {
+    font-size: 13px;
+  }
+
+  .offer-slider .right-arrow {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+  }
+
+  .offer-slider .left-arrow {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+  }
+
+  .offer-price p {
+    font-size: 13px;
+  }
+
+  .offer-duration p {
+    font-size: 13px;
+  }
+
+  .get-offer {
+    padding-bottom: 50px;
+  }
+
+  .header-left-text h3 {
+    font-size: 25px;
+  }
+
+  .header-left-text .nice-select {
+    margin-right: 0px;
+  }
+
+  .extra-btn button {
+    padding: 15px 0px;
+    font-size: 18px;
+  }
+
+  .tourist-main .fly {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .happen-main {
+    margin-top: 0;
+    padding: 18px 15px;
+  }
+
+  .happen-inner p {
+    font-size: 12px;
+  }
+
+  .happen-inner i {
+    padding-left: 5px;
+  }
+
+  .hotel-main {
+    padding: 50px 0;
+  }
+
+  .hotel-main .header-left-text p {
+    width: 100%;
+  }
+
+  .header-left-text p {
+    font-size: 15px;
+  }
+
+  .header-checkbox .form-check-label {
+    font-size: 16px;
+  }
+
+  .header-checkbox .form-check:last-child {
+    margin-left: 0;
+  }
+
+  .hotel-btn button {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .work-main .header-left-text .nice-select {
+    margin-top: 25px;
+    width: 49%;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .work-select .nice-select {
+    margin-bottom: 10px;
+  }
+
+  .hajj-main .header-left-text .nice-select {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .hajj-main {
+    padding: 50px 0;
+  }
+
+  .edu-main .nice-select,
+  .medi-main .nice-select,
+  .holi-main .nice-select {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .medi-main .hajj-selector .nav-link,
+  .holi-main .hajj-selector .nav-link {
+    padding: 14px 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .medi-main .get-offer {
+    padding-bottom: 50px;
+}
+}

@@ -9,6 +9,16 @@ $(function () {
     prevArrow: '<i class="fa-solid fa-arrow-left left-arrow"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right right-arrow"></i>',
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+    ],
   });
 
   new VenoBox({
@@ -27,6 +37,16 @@ $(function () {
     prevArrow: '<i class="fa-solid fa-arrow-left left-arrow"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right right-arrow"></i>',
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+    ],
   });
 
   $(window).scroll(function () {
