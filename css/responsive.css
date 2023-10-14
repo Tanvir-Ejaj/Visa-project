@@ -1,4 +1,23 @@
 @media (max-width: 575.99px) {
+  .navbar {
+    background: #f4fce4;
+    padding: 15px 0;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px 0 !important;
+  }
+
+  .nav-search {
+    width: 70%;
+  }
+
   .banner-list .nav {
     margin-right: 0 !important;
     flex-direction: row !important;
@@ -190,5 +209,67 @@
 
   .medi-main .get-offer {
     padding-bottom: 50px;
-}
+  }
+
+  .visa-check-left h3 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .visa-check-left p {
+    font-size: 15px;
+    line-height: 28px;
+    padding-right: 0;
+  }
+
+  .visa-check-left .nice-select {
+    width: 90%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+
+  .cv-right h3 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .buttons button {
+    margin-right: 0;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .balance-main .header-left-text h3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .balance-main .header-left-text {
+    padding-right: 0px;
+  }
+
+  .banner2-left h3 {
+    font-size: 26px;
+    line-height: 50px;
+  }
+
+  .banner2-left p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .extra-links ul li a {
+    font-size: 16px;
+    margin-right: 15px;
+  }
+
+  .contact {
+    margin-bottom: 15px;
+  }
+
+  .copyright p {
+    font-size: 11px;
+  }
 }
