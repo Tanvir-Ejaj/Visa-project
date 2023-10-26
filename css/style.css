@@ -152,11 +152,73 @@ body {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   text-align: left;
+  position: relative;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.banner-list .nav-link:hover{
+  background: #f3f3f3;
+  color: #c0b914;
 }
 
 .banner-list .nav-link.active {
   background: #c9c226;
   color: #fff;
+}
+
+.overflow-links{
+  position: absolute;
+  left: 100%;
+  background: #c9c226;
+  z-index: -99;
+  width: 0;
+  text-align: left;
+  top: 50%;
+  transform: translateX(-100px);
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.overflow-links ul li a{
+  width: 100%;
+  padding: 25px 0px 25px 28px;
+  font-size: 18px;
+  line-height: 12px;
+  color: var(--primary-color);
+  font-family: "Satoshi-Regular", sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #fff;
+}
+
+.overflow-links ul li a:hover{
+  background: #fff;
+  color: #c0b914;
+}
+
+.banner-list .nav-link:hover .overflow-links{
+  width: 150px;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  z-index: 99;
 }
 
 /* Banner area end */

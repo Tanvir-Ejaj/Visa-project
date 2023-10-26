@@ -47,6 +47,15 @@
     line-height: 12px;
   }
 
+  .banner-list .nav-link:hover .overflow-links {
+    width: 60px;
+  }
+
+  .overflow-links ul li a {
+    padding: 5px;
+    font-size: 10px;
+  }
+
   .banner-main {
     padding: 100px 0 50px 0;
   }
@@ -301,6 +310,19 @@
   .navbar-brand {
     width: 30%;
     margin-right: 0;
+  }
+
+  .banner-main {
+    padding: 150px 0 90px 0;
+  }
+
+  .banner-list .nav-link:hover .overflow-links {
+    width: 120px;
+  }
+
+  .overflow-links ul li a {
+    padding: 15px;
+    font-size: 16px;
   }
 
   .navbar-brand img {
