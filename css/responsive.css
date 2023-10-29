@@ -47,11 +47,16 @@
     line-height: 12px;
   }
 
-  .banner-list .nav-link:hover .overflow-links {
+  .banner-list .nav-link:hover ul {
     width: 60px;
   }
 
-  .overflow-links ul li a {
+  .banner-list .nav-link ul > li:hover ul {
+    width: 60px;
+    top: 5px;
+  }
+
+  .banner-list .nav-link:hover ul li a {
     padding: 5px;
     font-size: 10px;
   }
@@ -316,13 +321,17 @@
     padding: 150px 0 90px 0;
   }
 
-  .banner-list .nav-link:hover .overflow-links {
+  .banner-list .nav-link:hover ul {
     width: 120px;
   }
 
-  .overflow-links ul li a {
+  .banner-list .nav-link:hover ul li a {
     padding: 15px;
     font-size: 16px;
+  }
+
+  .banner-list .nav-link ul > li:hover ul {
+    width: 120px;
   }
 
   .navbar-brand img {
