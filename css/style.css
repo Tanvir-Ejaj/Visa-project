@@ -160,7 +160,7 @@ body {
   -o-transition: 0.5s;
 }
 
-.banner-list .nav-link:hover{
+.banner-list .nav-link:hover {
   background: #f3f3f3;
   color: #c0b914;
 }
@@ -170,7 +170,7 @@ body {
   color: #fff;
 }
 
-.overflow-links{
+.banner-list .nav-link ul {
   position: absolute;
   left: 100%;
   background: #c9c226;
@@ -190,8 +190,8 @@ body {
   -o-transition: 0.5s;
 }
 
-.overflow-links ul li a{
-  width: 100%;
+.banner-list .nav-link ul li a {
+  display: block;
   padding: 25px 0px 25px 28px;
   font-size: 18px;
   line-height: 12px;
@@ -206,12 +206,65 @@ body {
   color: #fff;
 }
 
-.overflow-links ul li a:hover{
+.banner-list .nav-link ul li a:hover {
   background: #fff;
   color: #c0b914;
 }
 
-.banner-list .nav-link:hover .overflow-links{
+.banner-list .nav-link ul li{
+  position: relative;
+}
+
+.banner-list .nav-link > ul li ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  background: #c9c226;
+  z-index: -99;
+  width: 0;
+  text-align: left;
+  top: 50%;
+  transform: translateX(-100px);
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  top: 20px;
+}
+
+.banner-list .nav-link ul > li:hover ul{
+  display: block;
+  width: 150px;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  z-index: 99;
+}
+
+.banner-list .nav-link ul li ul li a {
+  padding: 25px 0px 25px 28px;
+  font-size: 18px;
+  line-height: 12px;
+  color: var(--primary-color);
+  font-family: "Satoshi-Regular", sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #fff ;
+}
+
+.banner-list .nav-link:hover > ul {
+  display: block;
   width: 150px;
   transform: translateX(0);
   -webkit-transform: translateX(0);
